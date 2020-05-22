@@ -1,0 +1,31 @@
+.poster {
+    z-index: 10;
+    cursor: pointer;
+
+    .poster-image {
+        
+
+        img {
+            width: 12rem;
+            height: 17rem;
+        }
+    }
+
+    .poster-info {
+        width: 12rem;
+        
+        color: white;
+    
+        .poster-info-name {
+            font-weight: bold;
+            
+        }
+        .poster-info-genre {
+
+            ul {
+                list-style: none;
+                display: inline;
+            }
+        }
+    }
+}

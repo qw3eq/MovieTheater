@@ -1,0 +1,44 @@
+.carousel-group {
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-evenly;
+    
+}
+
+%carousel-btn  {
+    position: relative;
+    bottom: 21.5rem;
+
+    height: 15rem;
+    width: 4rem;
+
+    outline: none;
+    border: none;
+    background-color: #00244E;
+    
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+%carousel-btn:hover {
+    box-shadow: inset -4rem 0px 5px -4px rgba(0,0,0,0.45);
+    transition: box-shadow 0.3s ease-in;
+}
+
+
+.back {
+    @extend %carousel-btn;
+}
+
+.back:hover {
+    box-shadow: inset 4rem 0px 5px -4px rgba(0,0,0,0.45);
+    transition: box-shadow 0.3s ease-in;
+}
+
+.next {
+    @extend %carousel-btn;
+    left: 91%;
+}
+

@@ -1,0 +1,42 @@
+.preview {
+    height: 40rem;    
+
+    .preview-bg {
+        height: inherit;
+        position: relative;
+
+        .preview-bg-shadow {
+            height: inherit;
+            position: absolute;
+            left: 0;
+            
+            width: 35%;
+            z-index: 2;
+            
+            background: rgb(2,0,36);
+            background: linear-gradient(90deg, rgba(0,0,0,1) 85%, rgba(0,0,0,0) 100%);
+            
+            color: white;
+
+        }
+
+        .preview-player {
+            position: absolute;
+            right: 0;
+            width: 70%;
+            z-index: 1;
+
+            
+        }
+    }
+
+    .preview-description {
+        padding-right: 15%;
+        padding-left: 1rem;
+        margin: 0 auto;
+        
+        h3 {
+            font-size: 2rem;
+        }
+    }
+}

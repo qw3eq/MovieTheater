@@ -1,0 +1,67 @@
+.search {
+    
+
+    input {
+        border: none;
+        outline: none;
+
+        width: 50rem;
+        height: 3rem;
+
+        font-size: 2rem;
+        padding-left: 0.5rem;
+
+        border-radius: 4px;
+
+        background-color: rgba($color: #FFFFFF, $alpha: 0.10);
+        color: white;
+
+    }
+
+    input:hover {
+        background-color: #FFFFFF;
+        color: black;
+
+        transition: background-color 0.3s ease-in;
+        transition: color 0.3s ease;
+    }
+}
+
+.suggestions {
+    background-color: white;
+    position: absolute;
+    width: 50.5rem;
+    z-index: 500;
+    color: black;
+    
+
+    ul {
+        list-style: none;
+        padding-left: 0;
+
+        li {
+            padding-bottom: 0.5rem;
+            font-size: 1.3rem;
+            margin-bottom: 0.7rem;
+            display: grid;
+            grid-template-columns: 10% 90%;
+
+            p {
+                padding-left: 0.5rem;
+                display: inline;
+                 
+            }
+            
+            .item-year {
+                padding: 0 1rem;
+            }
+        }
+
+        li:hover {
+            cursor: pointer;
+            background-color: rgba($color: #e3e3e3, $alpha: 0.8);
+        }
+    }
+
+    
+}
